@@ -1,0 +1,30 @@
+[ec2-user@ip-10-2-11-83 ~]$ mysql -u admin -h udacity.cdd7ma7jm8uv.eu-central-1.rds.amazonaws.com -p
+Enter password:
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 30
+Server version: 8.0.20 Source distribution
+
+Copyright (c) 2000, 2020, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> use udacity
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+Database changed
+mysql> INSERT INTO dummy_table VALUES ('you are readonly!!');
+ERROR 1290 (HY000): The MySQL server is running with the --read-only option so it cannot execute this statement
+mysql> SELECT * FROM dummy_table;
++-------------+
+| message     |
++-------------+
+| AWS Rocks!! |
++-------------+
+1 row in set (0.00 sec)
+
+mysql>
