@@ -24,7 +24,7 @@ A Master DB in AZ1 with a read replica in AZ2
 
 <summary>Answer</summary>
 
-[Infrastructure diagram](./Udacity_Diagram_1.pdf)
+[Infrastructure diagram 1](./Udacity_Diagram_1.pdf)
 
 
 You have been asked to plan a SERVERLESS architecture schematic for a new application development project. The project requires the following AWS infrastructure and services.
@@ -40,7 +40,7 @@ S3 Storage
 
 <summary>Answer</summary>
 
-[Infrastructure diagram](./Udacity_Diagram_2.pdf)
+[Infrastructure diagram 2](./Udacity_Diagram_2.pdf)
 
 
 ### Task 2: Calculate Infrastructure Costs
@@ -62,7 +62,7 @@ Your budget has been reduced from $8,000-$10,000 to a maximum of $6,500. What se
 
 [Reduced Cost Estimate](./Reduced_Cost_Estimate.csv)
 
-[Reduced Cost Estimate Rationale](./Reduced_Cost_Estimate_ rationale.pdf)
+[Reduced Cost Estimate Rationale](./Reduced_Cost_Estimate_rationale.pdf)
 
 
 Your budget has been increased to $20,000. What resources will you add and why?
@@ -70,7 +70,7 @@ Think about where to add redundancy and how to improve performance. Re-configure
 
 <summary>Answer</summary>
 
-[Increased_Cost Estimate ](./Increased_Cost Estimate.csv)
+[Increased_Cost Estimate](./Increased_Cost_Estimate.csv)
 
 [Increased_Cost Estimate Rationale](./Increased_Cost_Estimate_rationale.pdf)
 
