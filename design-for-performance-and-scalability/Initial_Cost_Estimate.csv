@@ -1,0 +1,15 @@
+Initial_Cost_Estimate
+Group hierarchy;Region;Description;Service;Upfront;Monthly;First 12 months total;Currency;Configuration summary
+My Estimate;US East (N. Virginia);Webserver;Amazon EC2;0;288.64;3463.68;USD;Operating system (Linux), Quantity (12), Pricing strategy (EC2 Instance Savings Plans 1 Year No Upfront), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (50 GB), Instance type (t3.medium)
+My Estimate;US East (N. Virginia);Application Server;Amazon EC2;0;727.15;8725.80;USD;Operating system (Linux), Quantity (14), Pricing strategy (EC2 Instance Savings Plans 1 Year No Upfront), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (50 GB), Instance type (a1.xlarge)
+My Estimate;US East (N. Virginia);;Amazon Aurora MySQL-Compatible;0;4448.08;53376.96;USD;Change records per statement (0.38), Nodes (2), Instance Type (db.r5.2xlarge), Instance Family (Memory optimized), Pricing Model (OnDemand), Storage amount (15 TB), Additional backup storage (20 TB)
+My Estimate;US East (N. Virginia);;Amazon Route 53;0;1474.5;17694.00;USD;Hosted Zones (2), Basic Checks Within AWS (744), Number of Elastic Network Interfaces (2)
+My Estimate;US East (N. Virginia);;S3 Standard;0;353.28;4239.36;USD;S3 Standard storage (15 TB per month)
+My Estimate;US East (N. Virginia);;Data Transfer;0;921.51;11058.12;USD;DT Inbound: Internet (10 TB per month), DT Outbound: Amazon CloudFront (2 TB per month), DT Outbound: Internet (10 TB per month)
+My Estimate;US East (N. Virginia);;Application Load Balancer;0;278.61;3343.32;USD;Number of Application Load Balancers (2)
+My Estimate;US East (N. Virginia);;Amazon Virtual Private Cloud (VPC);0;157.86;1894.32;USD;Number of NAT Gateways (2)
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+Acknowledgement;;;;;;;;
+* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.;;;;;;;;

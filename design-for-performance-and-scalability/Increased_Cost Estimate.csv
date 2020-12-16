@@ -1,0 +1,25 @@
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),Webserver region 1,Amazon EC2,0,481.15,5773.80,USD,"Operating system (Linux), Quantity (14), Pricing strategy (On-Demand Instances 1 Year No Upfront), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (50 GB), Instance type (t3.medium)"
+My Estimate,US East (N. Virginia),Application Server region 1,Amazon EC2,0,1412.28,16947.36,USD,"Operating system (Linux), Quantity (18), Pricing strategy (On-Demand Instances 1 Year No Upfront), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (50 GB), Instance type (a1.xlarge)"
+My Estimate,US East (N. Virginia),,Amazon Aurora MySQL-Compatible,0,6443.44,77321.28,USD,"Change records per statement (0.38), Nodes (2), Instance Type (db.r3.4xlarge), Instance Family (Memory optimized), Pricing Model (OnDemand), Storage amount (20 TB), Additional backup storage (20 TB)"
+My Estimate,US East (N. Virginia),,Amazon Route 53,0,1688.5,20262.00,USD,"Hosted Zones (2), Basic Checks Within AWS (1400), Number of Elastic Network Interfaces (10)"
+My Estimate,US East (N. Virginia),,S3 Standard,0,706.56,8478.72,USD,S3 Standard storage (30 TB per month)
+My Estimate,US East (N. Virginia),,Data Transfer,0,1791.91,21502.92,USD,"DT Inbound: Internet (10 TB per month), DT Outbound: Amazon CloudFront (4 TB per month), DT Outbound: Internet (20 TB per month)"
+My Estimate,US East (N. Virginia),,Application Load Balancer,0,196.69,2360.28,USD,Number of Application Load Balancers (2)
+My Estimate,US East (N. Virginia),,Amazon Virtual Private Cloud (VPC),0,110.7,1328.40,USD,Number of NAT Gateways (2)
+My Estimate,US East (N. Virginia),,Amazon CloudWatch,0,34.013000000000005,408.16,USD,
+My Estimate,US East (N. Virginia),,Amazon API Gateway,0,350,4200.00,USD,"HTTP API requests units (millions), Average size of each request (34 KB), REST API request units (millions), Cache memory size (GB) (None), WebSocket message units (thousands), Average message size (32 KB), Requests (100 per month)"
+My Estimate,US East (N. Virginia),Region 1,Amazon ElastiCache,0,943.89,11326.68,USD,( 3 instances of type Memcached  Memory optimized  cache r5.xlarge  OnDemand )
+My Estimate,US East (N. Virginia),Region 1,Amazon Simple Queue Service (SQS),0,132.07,1584.84,USD,"DT Inbound: Internet (5 TB per month), DT Outbound: Internet (1 TB per month), Data transfer cost (92.07), Standard queue requests (100 million per month)"
+My Estimate,US East (N. Virginia),Region 1,AWS Web Application Firewall (WAF),0,110,1320.00,USD,"Number of Web Access Control Lists (Web ACLs) utilized (4 per month), Number of Rules added per Web ACL (10 per month), Number of Rule Groups per Web ACL (10 per month)"
+My Estimate,US West (N. California),Webserver region 2,Amazon EC2,0,208.66,2503.92,USD,"Operating system (Linux), Quantity (6), Pricing strategy (EC2 Instance Savings Plans 1 Year No Upfront), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (100 GB), Instance type (t3.medium)"
+My Estimate,US West (N. California),application Server region 2,Amazon EC2,0,605.22,7262.64,USD,"Operating system (Linux), Quantity (7), Pricing strategy (On-Demand Instances  ), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (100 GB), Instance type (a1.xlarge)"
+My Estimate,US West (N. California),Region 2 ,AWS Web Application Firewall (WAF),0,31,372.00,USD,Number of Web Access Control Lists (Web ACLs) utilized (5 per month)
+My Estimate,US West (N. California),Region 2,Amazon Simple Queue Service (SQS),0,40,480.00,USD,"Data transfer cost (0), Standard queue requests (100 million per month)"
+My Estimate,US West (N. California),region 2,Amazon ElastiCache,0,350.4,4204.80,USD,( 1 instances of type Memcached  Memory optimized  cache r5.xlarge  OnDemand )
+My Estimate,US West (N. California),,Amazon Aurora MySQL-Compatible,0,2625.16,31501.92,USD,"Change records per statement (0.38), Nodes (1), Instance Type (db.r3.2xlarge), Instance Family (Memory optimized), Pricing Model (OnDemand), Storage amount (15 TB)"
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
