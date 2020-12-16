@@ -62,7 +62,7 @@ Your budget has been reduced from $8,000-$10,000 to a maximum of $6,500. What se
 
 [Reduced Cost Estimate](./Reduced_Cost_Estimate.csv)
 
-[Reduced Cost Estimate Rationale](./Reduced_Cost_Estimate_rationale.zip)
+[Reduced Cost Estimate Rationale](./Reduced_Cost_Estimate_ rationale.pdf)
 
 
 Your budget has been increased to $20,000. What resources will you add and why?
@@ -70,7 +70,7 @@ Think about where to add redundancy and how to improve performance. Re-configure
 
 <summary>Answer</summary>
 
-[Increased_Cost Estimate ](./Increased_Cost_Estimate.csv)
+[Increased_Cost Estimate ](./Increased_Cost Estimate.csv)
 
 [Increased_Cost Estimate Rationale](./Increased_Cost_Estimate_rationale.pdf)
 
@@ -89,9 +89,9 @@ Require at least one non-alphanumeric character.
 
 <summary>Answer</summary>
 
-![Password Policy](./udacity_password_policy.png)
+![Password Policy](./screenshots/udacity_password_policy.png)
 
-[CloudTrail Log](./UdacityCloudTrailLog.csv)
+[CloudTrail Log](./screenshots/UdacityCloudTrailLog.csv)
 
 
 ### Task 4: Set up Cost Monitoring
@@ -104,7 +104,7 @@ Require at least one non-alphanumeric character.
 
 <summary>Answer</summary>
 
-![CloudWatch Alarm](./CloudWatch_alarm.png)
+![CloudWatch Alarm](./screenshots/CloudWatch_alarm.png)
 
 
 ### Task 5 : Use Terraform to Provision AWS Infrastructure
@@ -123,14 +123,12 @@ Require at least one non-alphanumeric character.
 5. Use Terraform to  delete the 2 m4.large instances
 6. Take an updated screenshot of the AWS console showing only the 4 t2.micro instances and save it as `Terraform_1_2`
 
-<details>
 <summary>Answer</summary>
 
-![Terraform_1_1](./Terraform_1_1.png)
+![Terraform_1_1](./screenshots/Terraform_1_1.png)
 
-![Terraform_1_2](./Terraform_1_2.png)
+![Terraform_1_2](./screenshots/Terraform_1_2.png)
 
-</details>
 
 #### Exercise 2
 
@@ -144,22 +142,18 @@ Require at least one non-alphanumeric character.
 2. Take a screenshot of the EC2 instances page
 3. Take a screenshot of the VPC page
 
-<details>
 <summary>Answer</summary>
 
-![Terraform_2_1](./Terraform_2_1.png)
+![Terraform_2_1](./screenshots/Terraform_2_1.png)
 
-![Terraform_2_2](./Terraform_2_2.png)
+![Terraform_2_2](./screenshots/Terraform_2_2.png)
 
-![Terraform_2_3](./Terraform_2_3.png)
+![Terraform_2_3](./screenshots/Terraform_2_3.png)
 
-</details>
 
 ### Task 6: Destroy the Infrastructure using Terraform
 
-<details>
 <summary>Answer</summary>
 
-![Terraform destroyed](./Terraform_destroyed.png)
+![Terraform destroyed](./screenshots/Terraform_destroyed.png)
 
-</details>
