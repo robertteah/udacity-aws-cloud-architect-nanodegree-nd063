@@ -1,0 +1,31 @@
+#Identify tools that will allow you to do the following:
+
+##Scan infrastructure as code templates
+
+CFRipper: https://github.com/Skyscanner/cfripper
+terrascan: https://github.com/cesar-rodriguez/terrascan
+Regula: https://github.com/fugue/regula
+
+### Example vulnerability
+terrascan : Ingress open to 0.0.0.0/0
+Regula: IAM policies with full "*:*" administrative privileges
+EC2SecurityGroupMissingEgressRule: Missing egress rule in NoIngressSecurityGroup means all traffic is allowed outbound. Make this explicit if it is desired configuration
+
+##Scan AMI’s or containers for OS vulnerabilities
+
+Anchore Engine: https://github.com/anchore/anchore-engine
+microscanner: https://github.com/aquasecurity/microscanner
+
+###Example vulnerability
+NIST: https://nvd.nist.gov/
+
+
+##Scan an AWS environment for cloud configuration vulnerabilities
+
+AWS Config 
+AWStealth: https://github.com/cyberark/SkyArk/tree/master/AWStealth
+
+###Example vulnerability
+
+s3-bucket-server-side-encryption-enabled: Checks that your Amazon S3 bucket either has S3 default encryption enabled or that the S3 bucket policy explicitly denies put-object requests without server side encryption.
+Unsecured privileged users - no MFA and no constrained permission condition 

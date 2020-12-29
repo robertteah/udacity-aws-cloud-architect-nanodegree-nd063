@@ -1,0 +1,12 @@
+
+# Least Privilege Violation
+InstanceRole(IAM role) has full access to any s3 bucket instance.  Roles should be specific to the list of resources and actions.
+
+# Network Controls to Restrict Application Server Traffic
+WebAppSG (Security group) has inbout traffic opned for both 5000,22 and 8080 ports. This provides HTTP base communication. 
+
+# Remove SSH Vulnerability on the Application Instance
+application server instance has PasswordAuthentication enbaled making it vulnurable to bruit for attack 
+
+# Apply Default Server-side Encryption to the S3 Bucket
+This will cause the S3 service to encrypt any objects that are stored going forward by default. Use the below guide to enable this on both S3 buckets.

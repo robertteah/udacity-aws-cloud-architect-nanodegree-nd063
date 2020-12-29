@@ -1,0 +1,15 @@
+# What additional architectural change can be made to reduce the internet facing attack surface of the web application instance.
+
+Make use of AWS Systems Manager's Session Manager service to access the application server.Remove ssh access from the instance. 
+
+# Assuming the IAM permissions for the S3 bucket are still insecure, would creating VPC private endpoints for S3 prevent the unauthorized access to the secrets bucket.
+
+No. This will keep access insure but this will keep the traffic between different services in VPC and S3 within AWS network ( probable bandwidth cost saving ). 
+
+# Will applying default encryption setting to the s3 buckets encrypt the data that already exists?
+
+No, new encryption rules apply to data objects which will be saved after applying encryption.
+
+# What would happen if the original cloud formation templates are applied to this environment.
+
+This will reset all the changes we did via cli or console. 

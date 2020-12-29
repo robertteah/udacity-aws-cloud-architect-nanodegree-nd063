@@ -1,0 +1,14 @@
+#Research and analyze which of the vulnerabilities appear to be related to the code that was deployed for the environment in this project.
+
+[CIS.4.1] Ensure no security groups allow ingress from 0.0.0.0/0 to port 22
+[CIS.2.9] Ensure VPC flow logging is enabled in all VPCs
+[CIS.4.2] Ensure no security groups allow ingress from 0.0.0.0/0 to port 3389
+S3.4 S3 buckets should have server-side encryption enabled
+securityhub-encrypted-volumes-98327f39 (EC2 volumes are not encrypted)
+
+Bonus - provide recommendations on how to remediate the vulnerabilities.
+
+Restrict IP address range for security groups on port 22
+Enable VPC flow logging
+Encrypt s3 buckets
+Encrypt EC2 volumes
