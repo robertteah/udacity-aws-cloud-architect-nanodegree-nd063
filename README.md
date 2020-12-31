@@ -17,3 +17,7 @@ Test the security of the environment by simulating attack scenarios and exploiti
 Implement monitoring to identify insecure configurations and malicious activity
 Apply methods learned in the course to harden and secure the environment
 Design a DevSecOps pipeline
+
+### Certificate
+
+- [View](https://confirm.udacity.com/GDT9DADV)
